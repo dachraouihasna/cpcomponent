@@ -1,5 +1,5 @@
-import { profilePicture } from "../../Data/data"
-function ProfilePhoto() {
+import React from "react";
+function ProfilePhoto({ profilePicture }) {
 
     return (
         <>

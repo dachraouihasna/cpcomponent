@@ -1,10 +1,10 @@
 import React from "react";
-import { fullName } from "../../Data/data"
-function Name() {
+
+
+function Name({ fullName }) {
     return (
         <div>
-            <h3>{fullName.nom}  {fullName.prenom}</h3>
-
+            {fullName.nom} {fullName.prenom}
         </div>
 
     );
